@@ -1,0 +1,73 @@
+.bgd{
+    background-image: url("picture/background.jpg");
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.userinfo{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.bcr{
+    width: 300px;
+    margin: 15px;
+    transition: filter 0.5s ease-in,box-shadow 0.5s ease-in;
+    -webkit-transition: filter 0.5s ease-in,box-shadow 0.5s ease-in;
+}
+
+.brightness:hover{
+    -webkit-box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.6),4px 4px 6px 4px rgba(0,0,0,0.4),
+    6px 6px 12px 4px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.6),4px 4px 6px 4px rgba(0, 0, 0, 0.4),
+    6px 6px 12px 4px rgba(0, 0, 0, 0.4);
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+}
+
+.pad{
+    padding: 5px;
+}
+
+.op{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex{
+    display: flex;
+}
+
+.fa{
+    flex-direction: column;
+}
+
+.pbinfo {
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ai{
+    align-items: center;
+}
+
+.fbg{
+    flex-basis: 1;
+    flex-grow: 1;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+img{
+    width: 300px;
+    vertical-align: top;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}

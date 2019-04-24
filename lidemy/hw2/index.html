@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body class="bgd">
+    <div id="app">
+        <div v-for="i in 9" class="bcr brightness">  
+            <div class="pp ">
+                <img src="picture/player.jpg" alt="">
+            </div>
+            <div class="flex pad op">
+                <div class="pb">
+                    <img class="pbinfo" src="picture/broadcaster.png" alt="">
+                </div>
+                <div class="flex fa">
+                    <div class="flex ai fbg ml-10">text1</div>
+                    <div class="flex ai fbg ml-10">text2</div>
+                </div>
+            </div>
+            
+       </div>
+       
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+var app=new Vue({
+    el:'#app',
+    data:{
+        message: 'Hello Vue.js!',
+    },
+});
+</script>
+
+</body>
+
+<!-- <script>
+var vm=new Vue({
+    el:'#app',
+    data:{},
+})
+</script> -->
+        
+</html>
