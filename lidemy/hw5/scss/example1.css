@@ -1,0 +1,110 @@
+.bgd {
+  background-image: url("picture/background.jpg");
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.userinfo {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.bcr {
+  width: 300px;
+  margin: 15px;
+  -webkit-transition: -webkit-filter 0.5s ease-in,-webkit-box-shadow 0.5s ease-in;
+  transition: -webkit-filter 0.5s ease-in,-webkit-box-shadow 0.5s ease-in;
+  transition: filter 0.5s ease-in,box-shadow 0.5s ease-in;
+  transition: filter 0.5s ease-in,box-shadow 0.5s ease-in,-webkit-filter 0.5s ease-in,-webkit-box-shadow 0.5s ease-in;
+  -webkit-transition: filter 0.5s ease-in,box-shadow 0.5s ease-in;
+}
+
+.brightness:hover {
+  -webkit-box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.6), 4px 4px 6px 4px rgba(0, 0, 0, 0.4), 6px 6px 12px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.6), 4px 4px 6px 4px rgba(0, 0, 0, 0.4), 6px 6px 12px 4px rgba(0, 0, 0, 0.4);
+  filter: brightness(150%);
+  -webkit-filter: brightness(150%);
+}
+
+.pad {
+  padding: 5px;
+}
+
+.op {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fa {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pbinfo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.ai {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fbg {
+  -ms-flex-preferred-size: 1;
+      flex-basis: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.playerpview {
+  position: relative;
+}
+
+.playerpview img {
+  position: relative;
+  z-index: 10;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 168px;
+  width: 100%;
+  background: url("https://static-cdn.jtvnw.net/ttv-static/404_preview-320x180.jpg");
+}
+
+.infscroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  color: white;
+}
+
+img {
+  width: 300px;
+  vertical-align: top;
+}
+/*# sourceMappingURL=example1.css.map */
